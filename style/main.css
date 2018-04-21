@@ -1,0 +1,28 @@
+@font-face{
+  font-family: mono;
+  src: url('font/DejaVuSansMono.ttf');
+}
+
+body
+{
+  background-color: #1a2230;
+  color:#ffffff;
+  font-family: mono;
+  margin: 0px;
+}
+
+p
+{
+  color: #ffffff;
+  size: 10px;
+}
+
+a
+{
+  background-color: rgba(255,255,255,0.5);
+  color: #AF6809;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 1px;
+  padding: 5px;
+}
