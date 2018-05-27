@@ -1,0 +1,21 @@
+/* This Stylesheet contains all alert-related styles.
+ *  (c) Brady O'Leary 2018
+ */
+
+#alert
+{
+  background-color: #dddddd;
+  margin: 0;
+  padding: 0;
+}
+
+#alert p
+{
+  margin: 0 0 0 0;
+  color: black;
+}
+
+#alert.notice
+{
+  background-color: #FFB232;
+}
