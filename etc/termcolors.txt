@@ -1,0 +1,7 @@
+{Color, Intense Color, Faint Color}
+Foreground
+#b2b2b2
+#ffffff
+#656565
+Background
+#000000

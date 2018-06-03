@@ -19,3 +19,8 @@
 {
   background-color: #FFB232;
 }
+
+#alert.warning
+{
+  background-color: #AE0011;
+}
