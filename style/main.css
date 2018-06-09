@@ -1,3 +1,66 @@
+/*  This is the main stylesheet in my website.
+    It contains details on colors, backgrounds and various main things.
+*/
+
+/* Temporary Color Variables*/
+:root {
+	--color0: rgb(0,0,0);
+	--color1: rgb(104,104,104);
+	--color2: rgb(0,0,0);
+	--color3: rgb(0,0,0);
+	--color4: rgb(104,104,104);
+	--color5: rgb(24,24,24);
+	--color6: rgb(178,24,24);
+	--color7: rgb(255,84,84);
+	--color8: rgb(101,0,0);
+	--color9: rgb(24,178,24);
+	--color10: rgb(84,255,84);
+	--color11: rgb(0,101,0);
+	--color12: rgb(178,104,24);
+	--color13: rgb(255,255,84);
+	--color14: rgb(101,94,0);
+	--color15: rgb(24,24,178);
+	--color16: rgb(84,84,255);
+	--color17: rgb(0,0,101);
+	--color18: rgb(178,24,178);
+	--color19: rgb(255,84,255);
+	--color20: rgb(101,0,101);
+	--color21: rgb(24,178,178);
+	--color22: rgb(84,255,255);
+	--color23: rgb(0,101,101);
+	--color24: rgb(178,178,178);
+	--color25: rgb(255,255,255);
+	--color26: rgb(101,101,101);
+	--color27: rgb(178,178,178);
+	--color28: rgb(255,255,255);
+	--color29: rgb(101,101,101);
+  
+  --black: rgb(0,0,0);
+	--medium-gray: rgb(104,104,104);
+	--dark-gray: rgb(24,24,24);
+	--red: rgb(178,24,24);
+	--light-red: rgb(255,84,84);
+	--dark-red: rgb(101,0,0);
+	--green: rgb(24,178,24);
+	--light-green: rgb(84,255,84);
+	--dark-green: rgb(0,101,0);
+	--yellow: rgb(178,104,24);
+	--light-yellow: rgb(255,255,84);
+	--dark-yellow: rgb(101,94,0);
+	--blue: rgb(24,24,178);
+	--light-blue: rgb(84,84,255);
+	--dark-blue: rgb(0,0,101);
+	--purple: rgb(178,24,178);
+	--light-purple: rgb(255,84,255);
+	--dark-purple: rgb(101,0,101);
+	--cyan: rgb(24,178,178);
+	--light-cyan: rgb(84,255,255);
+	--dark-cyan: rgb(0,101,101);
+	--gray: rgb(178,178,178);
+	--white: rgb(255,255,255);
+	--dark-gray2: rgb(101,101,101);
+}
+
 @font-face{
   font-family: mono;
   src: url('font/DejaVuSansMono.ttf');
@@ -31,25 +94,31 @@ a
 
 a.blue
 {
-  background-color: #99B4D9;
+  background-color: var(--light-blue);
   color: #000000;
 }
 
 a.green
 {
-  background-color: #92D7C7;
+  background-color: var(--light-green);
   color: #000000;
 }
 
 a.red
 {
-  background-color: #FBAAB2;
+  background-color: var(--light-red);
   color: #000000;
 }
 
 a.yellow
 {
-  background-color: #FFE0AD;
+  background-color: var(--light-yellow);
+  color: #000000;
+}
+
+a.cyan
+{
+  background-color: var(--light-cyan);
   color: #000000;
 }
 
