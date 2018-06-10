@@ -73,6 +73,7 @@ body
   font-family: mono;
   margin: 0px;
   font-size: 14px;
+  tab-size: 4;
 }
 
 p
