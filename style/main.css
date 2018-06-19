@@ -123,6 +123,12 @@ a.cyan
   color: #000000;
 }
 
+a.orange
+{
+  background-color: var(--yellow);
+  color: #000000;
+}
+
 h1
 {
   font-size: 14px;
